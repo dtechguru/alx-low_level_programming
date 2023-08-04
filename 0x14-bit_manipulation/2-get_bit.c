@@ -11,7 +11,7 @@
 #include "main.h"
 
 /**
- * j_get_bit - returns the digit of a bit at an index in a decimal value
+ * p_get_bit - returns the digit of a bit at an index in a decimal value
  * @n: number to search for
  * @index: index of the bit in the program
  *
