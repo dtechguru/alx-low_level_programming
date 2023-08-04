@@ -14,7 +14,7 @@
  * p_print_binary - prints out the binary same as of a decimal number
  * @n: numbers the binary should print
  */
-void j_print_binary(unsigned long int n)
+void p_print_binary(unsigned long int n)
 {
     int p, count = 0;
     unsigned long int current;
