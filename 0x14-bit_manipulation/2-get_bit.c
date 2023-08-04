@@ -11,14 +11,14 @@
 #include "main.h"
 
 /**
- * p_get_bit - returns the digit of a bit at an index in a decimal value
+ * get_bit.c - returns the digit of a bit at an index in a decimal value
  * @n: number to search for
  * @index: index of the bit in the program
  *
  * Author: Dtechguru
  * Return: the digit for the biit
  */
-int p_get_bit(unsigned long int n, unsigned int index)
+int get_bit(unsigned long int n, unsigned int index)
 {
     int bit_val;
 

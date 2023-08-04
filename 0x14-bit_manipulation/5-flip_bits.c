@@ -11,14 +11,14 @@
 #include "main.h"
 
 /**
- * p_flip_bits - enumerate the number of bits to change for this program
+ * flip_bits - enumerate the number of bits to change for this program
  * ans to get from one number to another
  * @n: first number (1)
  * @m: second number (2)
  *
  * Return: number of bits to change
  */
-unsigned int p_flip_bits(unsigned long int n, unsigned long int m)
+unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
     int p, count = 0;
     unsigned long int current;

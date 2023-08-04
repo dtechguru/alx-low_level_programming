@@ -11,13 +11,13 @@
 #include "main.h"
 
 /**
- * p_binary_to_uint - converts a binary number 
+ * binary_to_uint - converts a binary number 
  * to unsigned int for this program
  * @b: string with the binary number in them
  *
  * Return: the changed number
  */
-unsigned int p_binary_to_uint(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
     unsigned int dec_val = 0;
 
